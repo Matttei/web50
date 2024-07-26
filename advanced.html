@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-right-container">
+        <a href="index.html">Back to Google Search</a>
+        <a href="#" class="google-apps-icon">
+            <svg class="gb_h" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path><image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24" style="border:none;display:none \9"></image></svg>
+        </a>
+        <img src="photo.jpg" class="avatar-image" alt="Avatar">
+    </div>
+    <h2 class="header-paragraph">Advanced Search</h2>
+    <hr style="color: black">
+    <div class="search-container">
+        <h3>Find pages with...</h3>
+        <form class="form-search" action="https://www.google.com/search" method="get">
+            <div class="form-grid">
+                <div class="form-labels">
+                    <label for="all-words">all these words:</label>
+                    <label for="exact-phrase">this exact word or phrase:</label>
+                    <label for="any-words">any of these words:</label>
+                    <label for="none-words">none of these words:</label>
+                </div>
+                <div class="form-inputs">
+                    <input type="text" id="all-words" name="as_q" class="input-control">
+                    <input type="text" id="exact-phrase" name="as_epq" class="input-control">
+                    <input type="text" id="any-words" name="as_oq" class="input-control">
+                    <input type="text" id="none-words" name="as_eq" class="input-control">
+                </div>
+                <div class="form-examples">
+                    <p>Type the important words: tri-colour rat terrier</p>
+                    <p>Put exact words in quotes: "rat terrier"</p>
+                    <p>Type OR between all the words you want: miniature OR standard</p>
+                    <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                </div>
+            </div>
+            <div class="form-control">
+                <input class="advanced" type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
